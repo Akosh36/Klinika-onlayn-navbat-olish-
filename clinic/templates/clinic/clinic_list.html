@@ -1,0 +1,26 @@
+{% extends 'clinic/base.html' %}
+{% load i18n %}
+
+{% block title %}{% trans "Clinics" %}{% endblock %}
+
+{% block content %}
+<div class="row">
+    <div class="col-12">
+        <h1 class="text-center mb-4"><i class="fas fa-clinic-medical me-2"></i>{% trans "Our Clinics" %}</h1>
+    </div>
+</div>
+<div class="row">
+    {% for clinic in clinics %}
+    <div class="col-lg-4 col-md-6 mb-4">
+        <div class="card h-100">
+            <div class="card-body d-flex flex-column">
+                <h5 class="card-title"><i class="fas fa-hospital me-2"></i>{{ clinic.name }}</h5>
+                <p class="card-text flex-grow-1">{{ clinic.description }}</p>
+                <p class="text-muted"><i class="fas fa-map-marker-alt me-1"></i>{{ clinic.address }}</p>
+                <a href="{% url 'clinic_detail' clinic.id %}" class="btn btn-primary mt-auto"><i class="fas fa-user-md me-1"></i>{% trans "View Doctors" %}</a>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+{% endblock %}

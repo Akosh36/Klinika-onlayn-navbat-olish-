@@ -1,0 +1,198 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-04-22 12:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: uz\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: clinic/models.py:6
+msgid "Name"
+msgstr "Nomi"
+
+#: clinic/models.py:7
+msgid "Address"
+msgstr "Manzil"
+
+#: clinic/models.py:8
+msgid "Description"
+msgstr "Tavsif"
+
+#: clinic/models.py:12
+msgid "Clinic"
+msgstr "Klinika"
+
+#: clinic/models.py:13
+msgid "Clinics"
+msgstr "Klinikalar"
+
+#: clinic/models.py:16
+msgid "Specialty"
+msgstr "Mutaxassislik"
+
+#: clinic/models.py:20
+msgid "Doctor"
+msgstr "Shifokor"
+
+#: clinic/models.py:21
+msgid "Doctors"
+msgstr "Shifokorlar"
+
+#: clinic/models.py:25
+msgid "User"
+msgstr "Foydalanuvchi"
+
+#: clinic/models.py:27
+msgid "Date"
+msgstr "Sana"
+
+#: clinic/models.py:28
+msgid "Time"
+msgstr "Vaqt"
+
+#: clinic/models.py:29
+msgid "Status"
+msgstr "Holat"
+
+#: clinic/models.py:30
+msgid "Pending"
+msgstr "Kutilmoqda"
+
+#: clinic/models.py:31
+msgid "Confirmed"
+msgstr "Tasdiqlangan"
+
+#: clinic/models.py:32
+msgid "Cancelled"
+msgstr "Bekor qilingan"
+
+#: clinic/models.py:36
+msgid "Appointment"
+msgstr "Uchrashuv"
+
+#: clinic/models.py:37
+msgid "Appointments"
+msgstr "Uchrashuvlar"
+
+#: clinic/templates/clinic/base.html:6
+msgid "Clinic Appointment System"
+msgstr "Klinika Uchrashuv Tizimi"
+
+#: clinic/templates/clinic/base.html:15
+msgid "Clinic Appointments"
+msgstr "Klinika Uchrashuvlari"
+
+#: clinic/templates/clinic/base.html:25
+msgid "Dashboard"
+msgstr "Boshqaruv paneli"
+
+#: clinic/templates/clinic/base.html:26
+msgid "Logout"
+msgstr "Chiqish"
+
+#: clinic/templates/clinic/base.html:28
+msgid "Login"
+msgstr "Kirish"
+
+#: clinic/templates/clinic/base.html:29
+msgid "Register"
+msgstr "Ro'yxatdan o'tish"
+
+#: clinic/templates/clinic/home.html:4
+msgid "Home"
+msgstr "Bosh sahifa"
+
+#: clinic/templates/clinic/home.html:6
+msgid "Welcome to Clinic Appointment System"
+msgstr "Klinika Uchrashuv Tizimiga xush kelibsiz"
+
+#: clinic/templates/clinic/home.html:7
+msgid "Book appointments with doctors at various clinics."
+msgstr "Turli klinikalardagi shifokorlar bilan uchrashuv belgilang."
+
+#: clinic/templates/clinic/home.html:8
+msgid "Clinics"
+msgstr "Klinikalar"
+
+#: clinic/templates/clinic/home.html:15
+msgid "View Doctors"
+msgstr "Shifokorlarni ko'rish"
+
+#: clinic/templates/clinic/clinic_list.html:4
+msgid "Clinics"
+msgstr "Klinikalar"
+
+#: clinic/templates/clinic/clinic_detail.html:5
+msgid "Address"
+msgstr "Manzil"
+
+#: clinic/templates/clinic/clinic_detail.html:7
+msgid "Doctors"
+msgstr "Shifokorlar"
+
+#: clinic/templates/clinic/clinic_detail.html:17
+msgid "Book Appointment"
+msgstr "Uchrashuv belgilash"
+
+#: clinic/templates/clinic/clinic_detail.html:19
+msgid "Login to Book"
+msgstr "Belgilash uchun kiring"
+
+#: clinic/templates/clinic/book_appointment.html:4
+msgid "Book Appointment"
+msgstr "Uchrashuv belgilash"
+
+#: clinic/templates/clinic/book_appointment.html:6
+msgid "Book Appointment with"
+msgstr "Bilano uchrashuv belgilash"
+
+#: clinic/templates/clinic/book_appointment.html:10
+msgid "Book"
+msgstr "Belgilash"
+
+#: clinic/templates/clinic/dashboard.html:4
+msgid "Dashboard"
+msgstr "Boshqaruv paneli"
+
+#: clinic/templates/clinic/dashboard.html:6
+msgid "Your Appointments"
+msgstr "Sizning uchrashuvlaringiz"
+
+#: clinic/templates/clinic/dashboard.html:21
+msgid "No appointments yet."
+msgstr "Hali uchrashuvlar yo'q."
+
+#: clinic/templates/clinic/register.html:4
+msgid "Register"
+msgstr "Ro'yxatdan o'tish"
+
+#: clinic/templates/clinic/login.html:4
+msgid "Login"
+msgstr "Kirish"
+
+#: clinic/templates/clinic/login.html:8
+msgid "Username"
+msgstr "Foydalanuvchi nomi"
+
+#: clinic/templates/clinic/login.html:11
+msgid "Password"
+msgstr "Parol"
+
+#: clinic/views.py:12
+msgid "Appointment booked successfully."
+msgstr "Uchrashuv muvaffaqiyatli belgilandi."
+
+#: clinic/views.py:25
+msgid "Invalid credentials."
+msgstr "Noto'g'ri ma'lumotlar."

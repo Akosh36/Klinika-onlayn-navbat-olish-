@@ -1,0 +1,39 @@
+{% extends 'clinic/base.html' %}
+{% load i18n %}
+
+{% block title %}{% trans "Book Appointment" %}{% endblock %}
+
+{% block content %}
+<div class="row justify-content-center">
+    <div class="col-lg-6 col-md-8">
+        <div class="card">
+            <div class="card-header">
+                <h1 class="mb-0"><i class="fas fa-calendar-plus me-2"></i>{% trans "Book Appointment with" %} {{ doctor.name }}</h1>
+            </div>
+            <div class="card-body">
+                <p class="text-muted mb-4">{{ doctor.specialty }} - {{ doctor.clinic.name }}</p>
+                <form method="post">
+                    {% csrf_token %}
+                    <div class="mb-3">
+                        <label for="{{ form.date.id_for_label }}" class="form-label"><i class="fas fa-calendar me-1"></i>{% trans "Date" %}</label>
+                        {{ form.date }}
+                        {% if form.date.errors %}
+                            <div class="text-danger">{{ form.date.errors }}</div>
+                        {% endif %}
+                    </div>
+                    <div class="mb-3">
+                        <label for="{{ form.time.id_for_label }}" class="form-label"><i class="fas fa-clock me-1"></i>{% trans "Time" %}</label>
+                        {{ form.time }}
+                        {% if form.time.errors %}
+                            <div class="text-danger">{{ form.time.errors }}</div>
+                        {% endif %}
+                    </div>
+                    <div class="d-grid">
+                        <button type="submit" class="btn btn-success btn-lg"><i class="fas fa-check me-1"></i>{% trans "Book Appointment" %}</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

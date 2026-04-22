@@ -1,0 +1,198 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-04-22 12:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: clinic/models.py:6
+msgid "Name"
+msgstr "Имя"
+
+#: clinic/models.py:7
+msgid "Address"
+msgstr "Адрес"
+
+#: clinic/models.py:8
+msgid "Description"
+msgstr "Описание"
+
+#: clinic/models.py:12
+msgid "Clinic"
+msgstr "Клиника"
+
+#: clinic/models.py:13
+msgid "Clinics"
+msgstr "Клиники"
+
+#: clinic/models.py:16
+msgid "Specialty"
+msgstr "Специальность"
+
+#: clinic/models.py:20
+msgid "Doctor"
+msgstr "Врач"
+
+#: clinic/models.py:21
+msgid "Doctors"
+msgstr "Врачи"
+
+#: clinic/models.py:25
+msgid "User"
+msgstr "Пользователь"
+
+#: clinic/models.py:27
+msgid "Date"
+msgstr "Дата"
+
+#: clinic/models.py:28
+msgid "Time"
+msgstr "Время"
+
+#: clinic/models.py:29
+msgid "Status"
+msgstr "Статус"
+
+#: clinic/models.py:30
+msgid "Pending"
+msgstr "Ожидает"
+
+#: clinic/models.py:31
+msgid "Confirmed"
+msgstr "Подтверждено"
+
+#: clinic/models.py:32
+msgid "Cancelled"
+msgstr "Отменено"
+
+#: clinic/models.py:36
+msgid "Appointment"
+msgstr "Запись"
+
+#: clinic/models.py:37
+msgid "Appointments"
+msgstr "Записи"
+
+#: clinic/templates/clinic/base.html:6
+msgid "Clinic Appointment System"
+msgstr "Система Записи в Клинику"
+
+#: clinic/templates/clinic/base.html:15
+msgid "Clinic Appointments"
+msgstr "Записи в Клинику"
+
+#: clinic/templates/clinic/base.html:25
+msgid "Dashboard"
+msgstr "Панель управления"
+
+#: clinic/templates/clinic/base.html:26
+msgid "Logout"
+msgstr "Выход"
+
+#: clinic/templates/clinic/base.html:28
+msgid "Login"
+msgstr "Вход"
+
+#: clinic/templates/clinic/base.html:29
+msgid "Register"
+msgstr "Регистрация"
+
+#: clinic/templates/clinic/home.html:4
+msgid "Home"
+msgstr "Главная"
+
+#: clinic/templates/clinic/home.html:6
+msgid "Welcome to Clinic Appointment System"
+msgstr "Добро пожаловать в Систему Записи в Клинику"
+
+#: clinic/templates/clinic/home.html:7
+msgid "Book appointments with doctors at various clinics."
+msgstr "Запишитесь на прием к врачам в различных клиниках."
+
+#: clinic/templates/clinic/home.html:8
+msgid "Clinics"
+msgstr "Клиники"
+
+#: clinic/templates/clinic/home.html:15
+msgid "View Doctors"
+msgstr "Посмотреть Врачей"
+
+#: clinic/templates/clinic/clinic_list.html:4
+msgid "Clinics"
+msgstr "Клиники"
+
+#: clinic/templates/clinic/clinic_detail.html:5
+msgid "Address"
+msgstr "Адрес"
+
+#: clinic/templates/clinic/clinic_detail.html:7
+msgid "Doctors"
+msgstr "Врачи"
+
+#: clinic/templates/clinic/clinic_detail.html:17
+msgid "Book Appointment"
+msgstr "Записаться на прием"
+
+#: clinic/templates/clinic/clinic_detail.html:19
+msgid "Login to Book"
+msgstr "Войдите для записи"
+
+#: clinic/templates/clinic/book_appointment.html:4
+msgid "Book Appointment"
+msgstr "Записаться на прием"
+
+#: clinic/templates/clinic/book_appointment.html:6
+msgid "Book Appointment with"
+msgstr "Записаться на прием к"
+
+#: clinic/templates/clinic/book_appointment.html:10
+msgid "Book"
+msgstr "Записаться"
+
+#: clinic/templates/clinic/dashboard.html:4
+msgid "Dashboard"
+msgstr "Панель управления"
+
+#: clinic/templates/clinic/dashboard.html:6
+msgid "Your Appointments"
+msgstr "Ваши Записи"
+
+#: clinic/templates/clinic/dashboard.html:21
+msgid "No appointments yet."
+msgstr "Записей пока нет."
+
+#: clinic/templates/clinic/register.html:4
+msgid "Register"
+msgstr "Регистрация"
+
+#: clinic/templates/clinic/login.html:4
+msgid "Login"
+msgstr "Вход"
+
+#: clinic/templates/clinic/login.html:8
+msgid "Username"
+msgstr "Имя пользователя"
+
+#: clinic/templates/clinic/login.html:11
+msgid "Password"
+msgstr "Пароль"
+
+#: clinic/views.py:12
+msgid "Appointment booked successfully."
+msgstr "Запись успешно создана."
+
+#: clinic/views.py:25
+msgid "Invalid credentials."
+msgstr "Неверные учетные данные."

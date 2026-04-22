@@ -1,0 +1,36 @@
+{% extends 'clinic/base.html' %}
+{% load i18n %}
+
+{% block title %}{% trans "Login" %}{% endblock %}
+
+{% block content %}
+<div class="row justify-content-center">
+    <div class="col-lg-6 col-md-8">
+        <div class="card">
+            <div class="card-header">
+                <h1 class="mb-0"><i class="fas fa-sign-in-alt me-2"></i>{% trans "Welcome Back" %}</h1>
+            </div>
+            <div class="card-body">
+                <p class="text-muted mb-4">{% trans "Please sign in to your account." %}</p>
+                <form method="post">
+                    {% csrf_token %}
+                    <div class="mb-3">
+                        <label for="username" class="form-label"><i class="fas fa-user me-1"></i>{% trans "Username" %}</label>
+                        <input type="text" class="form-control" id="username" name="username" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="password" class="form-label"><i class="fas fa-lock me-1"></i>{% trans "Password" %}</label>
+                        <input type="password" class="form-control" id="password" name="password" required>
+                    </div>
+                    <div class="d-grid">
+                        <button type="submit" class="btn btn-primary btn-lg"><i class="fas fa-sign-in-alt me-1"></i>{% trans "Login" %}</button>
+                    </div>
+                </form>
+                <div class="text-center mt-3">
+                    <p class="mb-0">{% trans "Don't have an account?" %} <a href="{% url 'register' %}">{% trans "Register here" %}</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

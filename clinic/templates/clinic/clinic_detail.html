@@ -1,0 +1,42 @@
+{% extends 'clinic/base.html' %}
+{% load i18n %}
+
+{% block title %}{{ clinic.name }}{% endblock %}
+
+{% block content %}
+<div class="row">
+    <div class="col-12">
+        <div class="card mb-4">
+            <div class="card-header">
+                <h1 class="mb-0"><i class="fas fa-hospital me-2"></i>{{ clinic.name }}</h1>
+            </div>
+            <div class="card-body">
+                <p class="mb-2"><strong><i class="fas fa-map-marker-alt me-2"></i>{% trans "Address" %}:</strong> {{ clinic.address }}</p>
+                <p>{{ clinic.description }}</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<h2 class="mb-4"><i class="fas fa-user-md me-2"></i>{% trans "Our Doctors" %}</h2>
+<div class="row">
+    {% for doctor in doctors %}
+    <div class="col-lg-4 col-md-6 mb-4">
+        <div class="card h-100">
+            <div class="card-body d-flex flex-column text-center">
+                <div class="mb-3">
+                    <i class="fas fa-user-md fa-3x text-primary mb-3"></i>
+                </div>
+                <h5 class="card-title">{{ doctor.name }}</h5>
+                <p class="card-text text-muted">{{ doctor.specialty }}</p>
+                {% if user.is_authenticated %}
+                    <a href="{% url 'book_appointment' doctor.id %}" class="btn btn-success mt-auto"><i class="fas fa-calendar-plus me-1"></i>{% trans "Book Appointment" %}</a>
+                {% else %}
+                    <a href="{% url 'login' %}" class="btn btn-warning mt-auto"><i class="fas fa-sign-in-alt me-1"></i>{% trans "Login to Book" %}</a>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+{% endblock %}
