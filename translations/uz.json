@@ -1,0 +1,57 @@
+{
+  "Clinic": [
+    {
+      "name_match": "Central Medical Hospital",
+      "name": "Markaziy Tibbiyot Hospitali",
+      "description": "Keng qamrovli tibbiy xizmatlar va zamonaviy jihozlarga ega bosh shifoxona",
+      "address": "123 Main Street, Downtown"
+    },
+    {
+      "name_match": "City Health Center",
+      "name": "Shahar Salud Markazi",
+      "description": "Profilaktika va davolash xizmatlarini taklif etuvchi professional sog'liq markazi",
+      "address": "456 Elm Avenue, City Center"
+    },
+    {
+      "name_match": "Prime Clinic & Diagnostic",
+      "name": "Prime Klinik va Diagnostika",
+      "description": "Tajribali mutaxassislar bilan ilg'or diagnostika markazi",
+      "address": "789 Oak Boulevard, Medical District"
+    },
+    {
+      "name_match": "Family Care Medical Clinic",
+      "name": "Oilaviy Tibbiyot Klinika",
+      "description": "Do'stona oilaviy shifokorlar tomonidan keng qamrovli birlamchi yordam",
+      "address": "321 Pine Road, Residential Area"
+    },
+    {
+      "name_match": "Specialized Surgery Center",
+      "name": "Maxsus Jarrohlik Markazi",
+      "description": "Eng yuqori malakali mutaxassislar bilan jarrohlik xizmatlari",
+      "address": "555 University Lane, Business District"
+    },
+    {
+      "name_match": "Emergency Care Hospital",
+      "name": "Tez Yordam Shifoxonasi",
+      "description": "24/7 favqulodda va tez yordam xizmatlari",
+      "address": "999 Hospital Road, Medical Campus"
+    }
+  ],
+  "Doctor": [
+    {
+      "name_match": "Dr. Aisha Williams",
+      "name": "Dr. Aisha Williams",
+      "specialty": "Pediatriya"
+    },
+    {
+      "name_match": "Dr. Muhammad Brown",
+      "name": "Dr. Muhammad Brown",
+      "specialty": "Dermatolog"
+    },
+    {
+      "name_match": "Dr. Sarah Davis",
+      "name": "Dr. Sarah Davis",
+      "specialty": "Ortopedik jarroh"
+    }
+  ]
+}

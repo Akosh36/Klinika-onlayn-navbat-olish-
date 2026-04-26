@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-04-22 12:00+0000\n"
+"POT-Creation-Date: 2026-04-26 05:36+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,182 +17,184 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: clinic/models.py:6
-msgid "Name"
-msgstr "Имя"
-
-#: clinic/models.py:7
-msgid "Address"
+#, fuzzy
+#| msgid "Address"
+msgid "Email address"
 msgstr "Адрес"
 
-#: clinic/models.py:8
-msgid "Description"
-msgstr "Описание"
-
-#: clinic/models.py:12
-msgid "Clinic"
-msgstr "Клиника"
-
-#: clinic/models.py:13
-msgid "Clinics"
-msgstr "Клиники"
-
-#: clinic/models.py:16
-msgid "Specialty"
-msgstr "Специальность"
-
-#: clinic/models.py:20
-msgid "Doctor"
-msgstr "Врач"
-
-#: clinic/models.py:21
-msgid "Doctors"
-msgstr "Врачи"
-
-#: clinic/models.py:25
-msgid "User"
-msgstr "Пользователь"
-
-#: clinic/models.py:27
-msgid "Date"
-msgstr "Дата"
-
-#: clinic/models.py:28
-msgid "Time"
-msgstr "Время"
-
-#: clinic/models.py:29
-msgid "Status"
-msgstr "Статус"
-
-#: clinic/models.py:30
-msgid "Pending"
-msgstr "Ожидает"
-
-#: clinic/models.py:31
-msgid "Confirmed"
-msgstr "Подтверждено"
-
-#: clinic/models.py:32
-msgid "Cancelled"
-msgstr "Отменено"
-
-#: clinic/models.py:36
-msgid "Appointment"
-msgstr "Запись"
-
-#: clinic/models.py:37
-msgid "Appointments"
-msgstr "Записи"
-
-#: clinic/templates/clinic/base.html:6
-msgid "Clinic Appointment System"
-msgstr "Система Записи в Клинику"
-
-#: clinic/templates/clinic/base.html:15
-msgid "Clinic Appointments"
-msgstr "Записи в Клинику"
-
-#: clinic/templates/clinic/base.html:25
-msgid "Dashboard"
-msgstr "Панель управления"
-
-#: clinic/templates/clinic/base.html:26
-msgid "Logout"
-msgstr "Выход"
-
-#: clinic/templates/clinic/base.html:28
-msgid "Login"
-msgstr "Вход"
-
-#: clinic/templates/clinic/base.html:29
-msgid "Register"
-msgstr "Регистрация"
-
-#: clinic/templates/clinic/home.html:4
-msgid "Home"
-msgstr "Главная"
-
-#: clinic/templates/clinic/home.html:6
-msgid "Welcome to Clinic Appointment System"
-msgstr "Добро пожаловать в Систему Записи в Клинику"
-
-#: clinic/templates/clinic/home.html:7
-msgid "Book appointments with doctors at various clinics."
-msgstr "Запишитесь на прием к врачам в различных клиниках."
-
-#: clinic/templates/clinic/home.html:8
-msgid "Clinics"
-msgstr "Клиники"
-
-#: clinic/templates/clinic/home.html:15
-msgid "View Doctors"
-msgstr "Посмотреть Врачей"
-
-#: clinic/templates/clinic/clinic_list.html:4
-msgid "Clinics"
-msgstr "Клиники"
-
-#: clinic/templates/clinic/clinic_detail.html:5
-msgid "Address"
-msgstr "Адрес"
-
-#: clinic/templates/clinic/clinic_detail.html:7
-msgid "Doctors"
-msgstr "Врачи"
-
-#: clinic/templates/clinic/clinic_detail.html:17
-msgid "Book Appointment"
-msgstr "Записаться на прием"
-
-#: clinic/templates/clinic/clinic_detail.html:19
-msgid "Login to Book"
-msgstr "Войдите для записи"
-
-#: clinic/templates/clinic/book_appointment.html:4
-msgid "Book Appointment"
-msgstr "Записаться на прием"
-
-#: clinic/templates/clinic/book_appointment.html:6
-msgid "Book Appointment with"
-msgstr "Записаться на прием к"
-
-#: clinic/templates/clinic/book_appointment.html:10
-msgid "Book"
-msgstr "Записаться"
-
-#: clinic/templates/clinic/dashboard.html:4
-msgid "Dashboard"
-msgstr "Панель управления"
-
-#: clinic/templates/clinic/dashboard.html:6
-msgid "Your Appointments"
-msgstr "Ваши Записи"
-
-#: clinic/templates/clinic/dashboard.html:21
-msgid "No appointments yet."
-msgstr "Записей пока нет."
-
-#: clinic/templates/clinic/register.html:4
-msgid "Register"
-msgstr "Регистрация"
-
-#: clinic/templates/clinic/login.html:4
-msgid "Login"
-msgstr "Вход"
-
-#: clinic/templates/clinic/login.html:8
 msgid "Username"
 msgstr "Имя пользователя"
 
-#: clinic/templates/clinic/login.html:11
 msgid "Password"
 msgstr "Пароль"
 
-#: clinic/views.py:12
+#, fuzzy
+#| msgid "Password"
+msgid "Confirm Password"
+msgstr "Пароль"
+
+msgid "Name"
+msgstr "Имя"
+
+msgid "Address"
+msgstr "Адрес"
+
+msgid "Description"
+msgstr "Описание"
+
+msgid "Clinic"
+msgstr "Клиника"
+
+msgid "Clinics"
+msgstr "Клиники"
+
+msgid "Specialty"
+msgstr "Специальность"
+
+msgid "Doctor"
+msgstr "Врач"
+
+msgid "Doctors"
+msgstr "Врачи"
+
+msgid "User"
+msgstr "Пользователь"
+
+msgid "Date"
+msgstr "Дата"
+
+msgid "Time"
+msgstr "Время"
+
+msgid "Status"
+msgstr "Статус"
+
+msgid "Pending"
+msgstr "Ожидает"
+
+msgid "Confirmed"
+msgstr "Подтверждено"
+
+msgid "Cancelled"
+msgstr "Отменено"
+
+msgid "Appointment"
+msgstr "Запись"
+
+msgid "Appointments"
+msgstr "Записи"
+
+msgid "Clinic Appointment System"
+msgstr "Система Записи в Клинику"
+
+msgid "Clinic Appointments"
+msgstr "Записи в Клинику"
+
+msgid "Dashboard"
+msgstr "Панель управления"
+
+msgid "Logout"
+msgstr "Выход"
+
+msgid "Login"
+msgstr "Вход"
+
+msgid "Register"
+msgstr "Регистрация"
+
+msgid "All rights reserved."
+msgstr "Все права защищены."
+
+msgid "Built with care for better healthcare."
+msgstr "Создано с заботой о лучшем здравоохранении."
+
+msgid "Book Appointment"
+msgstr "Записаться на прием"
+
+msgid "Book Appointment with"
+msgstr "Записаться на прием к"
+
+#, fuzzy
+#| msgid "Doctors"
+msgid "Our Doctors"
+msgstr "Врачи"
+
+msgid "Login to Book"
+msgstr "Войдите для записи"
+
+#, fuzzy
+#| msgid "Clinics"
+msgid "Our Clinics"
+msgstr "Клиники"
+
+msgid "View Doctors"
+msgstr "Посмотреть Врачей"
+
+msgid "Your Appointments"
+msgstr "Ваши Записи"
+
+msgid "No appointments yet."
+msgstr "Записей пока нет."
+
+msgid "Start by browsing our clinics and booking an appointment."
+msgstr "Начните с просмотра наших клиник и записи на прием."
+
+#, fuzzy
+#| msgid "Clinics"
+msgid "Browse Clinics"
+msgstr "Клиники"
+
+msgid "Home"
+msgstr "Главная"
+
+msgid "Welcome to Clinic Appointment System"
+msgstr "Добро пожаловать в Систему Записи в Клинику"
+
+#, fuzzy
+#| msgid "Book appointments with doctors at various clinics."
+msgid ""
+"Book appointments with top doctors at various clinics. Your health, our "
+"priority."
+msgstr "Запишитесь на прием к врачам в различных клиниках."
+
+msgid "Welcome Back"
+msgstr "С возвращением"
+
+msgid "Please sign in to your account."
+msgstr "Пожалуйста, войдите в свой аккаунт."
+
+msgid "Don't have an account?"
+msgstr "Нет аккаунта?"
+
+#, fuzzy
+#| msgid "Register"
+msgid "Register here"
+msgstr "Регистрация"
+
+msgid "Create Account"
+msgstr "Создать аккаунт"
+
+#, fuzzy
+#| msgid "No appointments yet."
+msgid "Join us to book appointments easily."
+msgstr "Записей пока нет."
+
+msgid "Email"
+msgstr "Электронная почта"
+
+msgid "Already have an account?"
+msgstr "Уже есть аккаунт?"
+
+#, fuzzy
+#| msgid "Login"
+msgid "Login here"
+msgstr "Вход"
+
 msgid "Appointment booked successfully."
 msgstr "Запись успешно создана."
 
-#: clinic/views.py:25
 msgid "Invalid credentials."
 msgstr "Неверные учетные данные."
+
+#~ msgid "Book"
+#~ msgstr "Записаться"
