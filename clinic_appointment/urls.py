@@ -1,10 +1,13 @@
 """URL configuration for clinic_appointment project."""
 from django.contrib import admin
 from django.urls import path, include
+from django.conf.urls.i18n import i18n_patterns
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('uz/', include('clinic.urls')),
-    path('ru/', include('clinic.urls')),
-    path('', include('clinic.urls')),
 ]
+
+urlpatterns += i18n_patterns(
+    path('', include('clinic.urls')),
+    prefix_default_language=False,
+)

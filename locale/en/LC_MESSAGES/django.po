@@ -1,0 +1,176 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-04-26 05:36+0000\n"
+"PO-Revision-Date: 2026-04-27 00:00+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Email address"
+msgstr "Email address"
+
+msgid "Username"
+msgstr "Username"
+
+msgid "Password"
+msgstr "Password"
+
+msgid "Confirm Password"
+msgstr "Confirm Password"
+
+msgid "Name"
+msgstr "Name"
+
+msgid "Address"
+msgstr "Address"
+
+msgid "Description"
+msgstr "Description"
+
+msgid "Clinic"
+msgstr "Clinic"
+
+msgid "Clinics"
+msgstr "Clinics"
+
+msgid "Specialty"
+msgstr "Specialty"
+
+msgid "Doctor"
+msgstr "Doctor"
+
+msgid "Doctors"
+msgstr "Doctors"
+
+msgid "User"
+msgstr "User"
+
+msgid "Date"
+msgstr "Date"
+
+msgid "Time"
+msgstr "Time"
+
+msgid "Status"
+msgstr "Status"
+
+msgid "Pending"
+msgstr "Pending"
+
+msgid "Confirmed"
+msgstr "Confirmed"
+
+msgid "Cancelled"
+msgstr "Cancelled"
+
+msgid "Appointment"
+msgstr "Appointment"
+
+msgid "Appointments"
+msgstr "Appointments"
+
+msgid "Clinic Appointment System"
+msgstr "Clinic Appointment System"
+
+msgid "Clinic Appointments"
+msgstr "Clinic Appointments"
+
+msgid "Dashboard"
+msgstr "Dashboard"
+
+msgid "Logout"
+msgstr "Logout"
+
+msgid "Login"
+msgstr "Login"
+
+msgid "Register"
+msgstr "Register"
+
+msgid "All rights reserved."
+msgstr "All rights reserved."
+
+msgid "Built with care for better healthcare."
+msgstr "Built with care for better healthcare."
+
+msgid "Book Appointment"
+msgstr "Book Appointment"
+
+msgid "Book Appointment with"
+msgstr "Book Appointment with"
+
+msgid "Our Doctors"
+msgstr "Our Doctors"
+
+msgid "Login to Book"
+msgstr "Login to Book"
+
+msgid "Our Clinics"
+msgstr "Our Clinics"
+
+msgid "View Doctors"
+msgstr "View Doctors"
+
+msgid "Your Appointments"
+msgstr "Your Appointments"
+
+msgid "No appointments yet."
+msgstr "No appointments yet."
+
+msgid "Start by browsing our clinics and booking an appointment."
+msgstr "Start by browsing our clinics and booking an appointment."
+
+msgid "Browse Clinics"
+msgstr "Browse Clinics"
+
+msgid "Home"
+msgstr "Home"
+
+msgid "Welcome to Clinic Appointment System"
+msgstr "Welcome to Clinic Appointment System"
+
+msgid "Book appointments with top doctors at various clinics. Your health, our priority."
+msgstr "Book appointments with top doctors at various clinics. Your health, our priority."
+
+msgid "Welcome Back"
+msgstr "Welcome Back"
+
+msgid "Please sign in to your account."
+msgstr "Please sign in to your account."
+
+msgid "Don't have an account?"
+msgstr "Don't have an account?"
+
+msgid "Register here"
+msgstr "Register here"
+
+msgid "Create Account"
+msgstr "Create Account"
+
+msgid "Join us to book appointments easily."
+msgstr "Join us to book appointments easily."
+
+msgid "Email"
+msgstr "Email"
+
+msgid "Already have an account?"
+msgstr "Already have an account?"
+
+msgid "Login here"
+msgstr "Login here"
+
+msgid "Appointment booked successfully."
+msgstr "Appointment booked successfully."
+
+msgid "Invalid credentials."
+msgstr "Invalid credentials."

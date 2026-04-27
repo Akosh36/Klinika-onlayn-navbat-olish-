@@ -105,11 +105,12 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/6.0/topics/i18n/
 
-LANGUAGE_CODE = 'uz'
+LANGUAGE_CODE = 'en'
 
 LANGUAGES = [
-    ('uz', 'O\'zbek'),
+    ('en', 'English'),
     ('ru', 'Русский'),
+    ('uz', 'O\'zbek'),
 ]
 
 LOCALE_PATHS = [

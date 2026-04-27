@@ -131,7 +131,7 @@ if __name__ == '__main__':
     locale_dir = os.path.join(base_dir, 'locale')
     
     # Compile .po files to .mo files
-    for lang in ['uz', 'ru']:
+    for lang in ['en', 'ru', 'uz']:
         po_file = os.path.join(locale_dir, lang, 'LC_MESSAGES', 'django.po')
         mo_file = os.path.join(locale_dir, lang, 'LC_MESSAGES', 'django.mo')
         

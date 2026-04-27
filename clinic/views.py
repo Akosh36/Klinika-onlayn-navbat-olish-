@@ -5,6 +5,8 @@ from django.contrib import messages
 from .models import Clinic, Doctor, Appointment
 from .forms import RegisterForm, AppointmentForm
 from django.utils.translation import gettext_lazy as _
+from django.utils import translation
+from django.views.decorators.http import require_http_methods
 
 def home(request):
     clinics = Clinic.objects.all()
@@ -66,3 +68,40 @@ def user_login(request):
 def user_logout(request):
     logout(request)
     return redirect('home')
+
+@require_http_methods(["GET"])
+def set_language(request, language):
+    """Set the user's language preference"""
+    from django.conf import settings
+    
+    # Validate language code
+    valid_languages = [lang[0] for lang in settings.LANGUAGES]
+    if language not in valid_languages:
+        language = settings.LANGUAGE_CODE
+    
+    # Set language in session
+    request.session['language'] = language
+    translation.activate(language)
+    
+    # Get the referer or default to home
+    referer = request.META.get('HTTP_REFERER', '/')
+    
+    # Redirect to the new language URL
+    # Extract path from referer
+    from urllib.parse import urlparse
+    parsed = urlparse(referer)
+    path = parsed.path
+    
+    # Remove language prefix from path if present
+    for lang in valid_languages:
+        if path.startswith(f'/{lang}/'):
+            path = path[len(f'/{lang}'):]
+            break
+    
+    # Ensure path is not empty
+    if not path or path == '':
+        path = '/'
+    
+    # Redirect to same path with new language prefix
+    return redirect(f'/{language}{path}')
+
